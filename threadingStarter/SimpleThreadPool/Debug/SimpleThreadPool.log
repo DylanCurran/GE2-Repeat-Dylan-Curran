@@ -1,0 +1,34 @@
+﻿  Game.cpp
+C:\Users\Gamer\Desktop\threadingStarter\SimpleThreadPool\Game.cpp(53,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Gamer\Desktop\threadingStarter\SimpleThreadPool\Game.cpp(53,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: void __thiscall Game::init(void)" (?init@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: void __thiscall Game::handleEvents(void)" (?handleEvents@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: void __thiscall Game::init(void)" (?init@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: void __thiscall Game::init(void)" (?init@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _SDL_main
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function "public: void __thiscall MapTile::init(struct SDL_Renderer *,char const *,class Vector2,bool)" (?init@MapTile@@QAEXPAUSDL_Renderer@@PBDVVector2@@_N@Z)
+NPC.obj : error LNK2001: unresolved external symbol _SDL_RWFromFile
+Player.obj : error LNK2001: unresolved external symbol _SDL_RWFromFile
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: void __thiscall MapTile::init(struct SDL_Renderer *,char const *,class Vector2,bool)" (?init@MapTile@@QAEXPAUSDL_Renderer@@PBDVVector2@@_N@Z)
+NPC.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+Player.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_LoadBMP_RW referenced in function "public: void __thiscall MapTile::init(struct SDL_Renderer *,char const *,class Vector2,bool)" (?init@MapTile@@QAEXPAUSDL_Renderer@@PBDVVector2@@_N@Z)
+NPC.obj : error LNK2001: unresolved external symbol _SDL_LoadBMP_RW
+Player.obj : error LNK2001: unresolved external symbol _SDL_LoadBMP_RW
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: void __thiscall MapTile::init(struct SDL_Renderer *,char const *,class Vector2,bool)" (?init@MapTile@@QAEXPAUSDL_Renderer@@PBDVVector2@@_N@Z)
+NPC.obj : error LNK2001: unresolved external symbol _SDL_CreateTextureFromSurface
+Player.obj : error LNK2001: unresolved external symbol _SDL_CreateTextureFromSurface
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_RenderDrawLine referenced in function "public: void __thiscall MapTile::render(struct SDL_Renderer * &)" (?render@MapTile@@QAEXAAPAUSDL_Renderer@@@Z)
+MapTile.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall MapTile::render(struct SDL_Renderer * &)" (?render@MapTile@@QAEXAAPAUSDL_Renderer@@@Z)
+NPC.obj : error LNK2001: unresolved external symbol _SDL_RenderCopy
+Player.obj : error LNK2001: unresolved external symbol _SDL_RenderCopy
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Gamer\Desktop\threadingStarter\Debug\SimpleThreadPool.exe : fatal error LNK1120: 18 unresolved externals
